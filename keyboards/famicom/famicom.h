@@ -13,9 +13,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+#ifndef FAMICOM_H
+#define FAMICOM_H
 #pragma once
 
 #include "quantum.h"
+
 
 /* This a shortcut to help you visually see your layout.
  *
@@ -130,4 +133,3 @@ NOTICE: In the  matrix above vs output ; and : are swapped need to test this!
 }
 
 #endif
-

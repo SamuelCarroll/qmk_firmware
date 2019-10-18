@@ -41,11 +41,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
  */
+//TODO make these pins based on the Teensy file
 #define MATRIX_ROW_PINS \
-    { D0, D5 }
+    { B0, B1, B2, B3, B7, D0, D1, D2, D3 }
 #define MATRIX_COL_PINS \
-    { F1, F0, B0 }
-#define UNUSED_PINS
+    { F0, F1, F4, F5, F6, F7, D6, B5 }
+#define UNUSED_PINS \
+    { C6, C7, D5, D4, B4, D7, D6, E6 }
 
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW
@@ -53,7 +55,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /*
  * Split Keyboard specific options, make sure you have 'SPLIT_KEYBOARD = yes' in your rules.mk, and define SOFT_SERIAL_PIN.
  */
-#define SOFT_SERIAL_PIN D0  // or D1, D2, D3, E6
+// #define SOFT_SERIAL_PIN D0  // or D1, D2, D3, E6
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5

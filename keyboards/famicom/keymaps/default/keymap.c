@@ -66,7 +66,7 @@ Might use the KANA key to shift between keyboard settings
 +-------+--------+-------+-------+--------+--------+-------+-------+
 |   F8  | RETURN |   ]   |  PGUP |   ALT  | RSHIFT |   \   | BKSPC |
 +-------+--------+-------+-------+--------+--------+-------+-------+
-|   F7  |    [   |   ;   |   "   |  PGDN  |    /   |   -   |   =   |
+|   F7  |    [   |   "   |   ;   |  PGDN  |    /   |   -   |   =   |
 +-------+--------+-------+-------+--------+--------+-------+-------+
 |   F6  |    O   |   L   |   K   |    ,   |    .   |   P   |   0   |
 +-------+--------+-------+-------+--------+--------+-------+-------+
@@ -86,7 +86,7 @@ Might use the KANA key to shift between keyboard settings
 */
 
     KC_F8,   KC_ENT,  KC_RBRC, KC_PGUP, KC_ALGR, KC_RSFT, KC_BSLS, KC_BSPC, \
-    KC_F7,   KC_LBRC, KC_SCLN, KC_QUOT, KC_PGDN, KC_SLSH, KC_MINS, KC_EQL,  \
+    KC_F7,   KC_LBRC, KC_QUOT, KC_SCLN, KC_PGDN, KC_SLSH, KC_MINS, KC_EQL,  \
     KC_F6,   KC_O,    KC_L,    KC_K,    KC_COMM, KC_DOT,  KC_P,    KC_0,    \
     KC_F5,   KC_I,    KC_U,    KC_J,    KC_M,    KC_N,    KC_9,    KC_8,    \
     KC_F4,   KC_Y,    KC_G,    KC_H,    KC_B,    KC_V,    KC_7,    KC_6,    \
